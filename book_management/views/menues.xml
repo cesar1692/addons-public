@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_main_books" name="Libros" sequence="10" web_icon="book_management,static/description/icon.png"/>
+        <menuitem id="menu_books" name="Libros" sequence="10" parent="menu_main_books" action="action_book_book"/>
+    </data>
+</odoo>
